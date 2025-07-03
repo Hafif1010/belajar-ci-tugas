@@ -47,6 +47,15 @@ $routes->post('buy', 'TransaksiController::buy', ['filter' => 'auth']);
 $routes->get('get-location', 'TransaksiController::getLocation', ['filter' => 'auth']);
 $routes->get('get-cost', 'TransaksiController::getCost', ['filter' => 'auth']);
 
+// Rute untuk Diskon
+$routes->group('diskon', ['filter' => 'auth'], function($routes) { // 'auth' filter bisa ditambahkan jika Anda punya middleware autentikasi
+    $routes->get('/', 'DiscountController::index');
+    $routes->post('save', 'DiscountController::save'); // Untuk menyimpan data baru
+    $routes->get('edit/(:num)', 'DiscountController::edit/$1'); // Untuk mengambil data edit (biasanya via AJAX)
+    $routes->post('update/(:num)', 'DiscountController::update/$1'); // Untuk menyimpan perubahan
+    $routes->get('delete/(:num)', 'DiscountController::delete/$1'); // Untuk menghapus data
+});
+
 // Halaman Umum
 $routes->get('faq', 'Home::faq', ['filter' => 'auth']);
 $routes->get('profile', 'Home::profile', ['filter' => 'auth']);

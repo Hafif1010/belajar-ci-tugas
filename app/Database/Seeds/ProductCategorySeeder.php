@@ -11,53 +11,53 @@ class ProductCategorySeeder extends Seeder
         $data = [
             [
                 'nama_kategori' => 'Elektronik',
-                'nama_benda' => 'Laptop',
-                'deskripsi' => 'Perangkat komputer portabel.',
+                'nama_merk' => 'Laptop',
+                'nama_sepatu' => 'Perangkat komputer portabel.',
             ],
             [
                 'nama_kategori' => 'Elektronik',
-                'nama_benda' => 'Smartphone',
-                'deskripsi' => 'Telepon pintar dengan berbagai fitur.',
+                'nama_merk' => 'Smartphone',
+                'nama_sepatu' => 'Telepon pintar dengan berbagai fitur.',
             ],
             [
                 'nama_kategori' => 'Peralatan Rumah Tangga',
-                'nama_benda' => 'Kulkas',
-                'deskripsi' => 'Alat untuk menyimpan makanan agar tetap segar.',
+                'nama_merk' => 'Kulkas',
+                'nama_sepatu' => 'Alat untuk menyimpan makanan agar tetap segar.',
             ],
             [
                 'nama_kategori' => 'Peralatan Rumah Tangga',
-                'nama_benda' => 'Mesin Cuci',
-                'deskripsi' => 'Alat untuk mencuci pakaian.',
+                'nama_merk' => 'Mesin Cuci',
+                'nama_sepatu' => 'Alat untuk mencuci pakaian.',
             ],
             [
                 'nama_kategori' => 'Olahraga',
-                'nama_benda' => 'Sepeda',
-                'deskripsi' => 'Kendaraan roda dua tanpa mesin.',
+                'nama_merk' => 'Sepeda',
+                'nama_sepatu' => 'Kendaraan roda dua tanpa mesin.',
             ],
             [
                 'nama_kategori' => 'Olahraga',
-                'nama_benda' => 'Bola Sepak',
-                'deskripsi' => 'Bola yang digunakan untuk bermain sepak bola.',
+                'nama_merk' => 'Bola Sepak',
+                'nama_sepatu' => 'Bola yang digunakan untuk bermain sepak bola.',
             ],
             [
                 'nama_kategori' => 'Furnitur',
-                'nama_benda' => 'Meja',
-                'deskripsi' => 'Perabot untuk menaruh barang.',
+                'nama_merk' => 'Meja',
+                'nama_sepatu' => 'Perabot untuk menaruh barang.',
             ],
             [
                 'nama_kategori' => 'Furnitur',
-                'nama_benda' => 'Kursi',
-                'deskripsi' => 'Perabot untuk duduk.',
+                'nama_merk' => 'Kursi',
+                'nama_sepatu' => 'Perabot untuk duduk.',
             ],
             [
                 'nama_kategori' => 'Alat Tulis',
-                'nama_benda' => 'Pulpen',
-                'deskripsi' => 'Alat untuk menulis dengan tinta.',
+                'nama_merk' => 'Pulpen',
+                'nama_sepatu' => 'Alat untuk menulis dengan tinta.',
             ],
             [
                 'nama_kategori' => 'Alat Tulis',
-                'nama_benda' => 'Buku',
-                'deskripsi' => 'Kumpulan kertas untuk menulis atau membaca.',
+                'nama_merk' => 'Buku',
+                'nama_sepatu' => 'Kumpulan kertas untuk menulis atau membaca.',
             ],
         ];
 
